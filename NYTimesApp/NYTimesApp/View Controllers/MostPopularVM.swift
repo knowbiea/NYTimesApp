@@ -21,10 +21,17 @@ final class MostPopularVM: MostPopularProtocol {
     
     // MARK: - Properties
     var results: [MostResults]?
+    var httpClient: HTTPClientProtocol!
+    
+    init(httpClient: HTTPClientProtocol) {
+        self.httpClient = httpClient
+    }
 
     // MARK: - API Calling
     func getMostPopularNews(completion: @escaping (String?, Bool) -> Void) {
-        API.APIModelRequest(MostPopular.self, API.Endpoints.mostPopular.stringValue) { response in
+        
+        httpClient.apiModelRequest(MostPopular.self, Endpoints.mostPopular.stringValue, .get, nil, nil) { [weak self ] response in
+            guard let self = self else { return }
             self.results = response.results
             completion(nil, true)
 

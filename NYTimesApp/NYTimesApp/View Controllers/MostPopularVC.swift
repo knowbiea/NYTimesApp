@@ -13,7 +13,7 @@ class MostPopularVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     // MARK: - Properties
-    private var viewModel = MostPopularVM()
+    private var viewModel = MostPopularVM(httpClient: HTTPClient())
     
     // MARK: - View Life Cycle
     override func viewDidLoad() {

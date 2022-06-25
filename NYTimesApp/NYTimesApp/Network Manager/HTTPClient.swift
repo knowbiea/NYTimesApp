@@ -10,10 +10,15 @@ import Alamofire
 
 let reachabilityManager = Alamofire.NetworkReachabilityManager(host: "www.google.com")
 
-class API {
-    
+protocol HTTPClientProtocol {
     @discardableResult
-    class func APIModelRequest<T:Decodable>(_ model:T.Type, _ url: String, _ header: Dictionary<String, String>? = nil, _ httpMethod: HTTPMethod = .get, _ parameter: [String: AnyObject]? = nil, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest? {
+    func apiModelRequest<T:Decodable>(_ model:T.Type, _ url: String, _ httpMethod: HTTPMethod, _ header: Dictionary<String, String>?, _ parameter: [String: AnyObject]?, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest?
+}
+
+class HTTPClient: HTTPClientProtocol {
+
+    @discardableResult
+    func apiModelRequest<T:Decodable>(_ model: T.Type, _ url: String, _ httpMethod: HTTPMethod, _ header: Dictionary<String, String>?, _ parameter: [String : AnyObject]?, success: @escaping (T) -> Void, failure: @escaping (Error) -> Void) -> DataRequest? {
         
         if !(reachabilityManager!.isReachable) {
             print("reachabilityManager is not Connected")
@@ -37,33 +42,17 @@ class API {
                         failure(jsonError)
                     }
                 }
-                
-                
             }
         }
         
         return request
     }
     
-   class fileprivate func parseError(_ error: String) -> Error {
+   fileprivate func parseError(_ error: String) -> Error {
         let error = NSError(domain:APIError.domain, code:APIError.code, userInfo:[ NSLocalizedDescriptionKey: error])
         print("handleParseError: \(error.localizedDescription)")
         
         return error
-    }
-    
-    enum Endpoints {
-        static let base = "https://api.nytimes.com/"
-        static let apiKey = "ZOyC8fSalGYf7yrPUGKRAKej1UVTtxfI"
-        
-        case mostPopular
-        
-        var stringValue: String {
-            switch self {
-            case .mostPopular: return Endpoints.base + "svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=" + Endpoints.apiKey
-            
-            }
-        }
     }
 }
 
@@ -79,4 +68,18 @@ struct APIHeader {
     static let applicationFormURLEncoded = "application/x-www-form-urlencoded"
     static let applicationJson = "application/json"
     static let multipartFormData = "multipart/form-data"
+}
+
+enum Endpoints {
+    static let base = "https://api.nytimes.com/"
+    static let apiKey = "ZOyC8fSalGYf7yrPUGKRAKej1UVTtxfI"
+    
+    case mostPopular
+    
+    var stringValue: String {
+        switch self {
+        case .mostPopular: return Endpoints.base + "svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=" + Endpoints.apiKey
+        
+        }
+    }
 }

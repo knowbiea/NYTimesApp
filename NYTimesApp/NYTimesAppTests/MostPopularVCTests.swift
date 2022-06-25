@@ -8,17 +8,19 @@
 import XCTest
 @testable import NYTimesApp
 
-class NYTimesAppTests: XCTestCase {
+class MostPopularVCTests: XCTestCase {
     
     var mostPopularVC: MostPopularVC!
     var viewModel: MostPopularVM!
+    var mockViewModel: MostPopularVM!
     
     override func setUp() {
         super.setUp()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         mostPopularVC = storyboard.instantiateViewController(withIdentifier: "MostPopularVC") as? MostPopularVC
         _ = mostPopularVC.view
-        viewModel = MostPopularVM()
+        viewModel = MostPopularVM(httpClient: HTTPClient())
+        mockViewModel = MostPopularVM(httpClient: MockHTTPClient())
     }
     
     override func tearDown() {
@@ -43,7 +45,23 @@ class NYTimesAppTests: XCTestCase {
         
         // Then
         waitForExpectations(timeout: 20) { error in
-            XCTAssertNotNil(mostPopularVM?.results)
+            XCTAssertEqual(mostPopularVM?.results?.count, 20)
+        }
+    }
+    
+    func testMockAPICalling() {
+        // Given
+        let mostPopularVM = mockViewModel
+        let expectation = self.expectation(description: "Testing API Calling")
+        
+        // When
+        mostPopularVM?.getMostPopularNews(completion: { message, status in
+            expectation.fulfill()
+        })
+        
+        // Then
+        waitForExpectations(timeout: 20) { error in
+            XCTAssertEqual(mostPopularVM?.results?.count, 20)
         }
     }
 }
