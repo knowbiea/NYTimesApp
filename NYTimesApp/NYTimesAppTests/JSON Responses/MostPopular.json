@@ -1,0 +1,1230 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/75311f70-1693-590d-ba81-dda3b78d9bbc",
+      "url": "https://www.nytimes.com/2022/06/18/us/politics/biden-falls-bike-rehoboth-beach.html",
+      "id": 100000008405898,
+      "asset_id": 100000008405898,
+      "source": "New York Times",
+      "published_date": "2022-06-18",
+      "updated": "2022-06-19 12:23:25",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Bicycles and Bicycling;Falls;United States Politics and Government;Biden, Joseph R Jr;Rehoboth Beach (Del)",
+      "column": null,
+      "byline": "By Zach Montague",
+      "type": "Article",
+      "title": "Biden Takes Tumble During Bike Ride in Delaware",
+      "abstract": "The president did not need medical attention after he fell off his bike at a state park near his vacation home in Rehoboth Beach, according to the White House.",
+      "des_facet": [
+        "Bicycles and Bicycling",
+        "Falls",
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [
+        "Rehoboth Beach (Del)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden after falling off his bike at Cape Henlopen State Park in Delaware. He and the first lady were spending the weekend at their vacation home in Rehoboth Beach.",
+          "copyright": "Sarah Silbiger for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/world/18dc-biden1/18dc-biden1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/world/18dc-biden1/18dc-biden1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/world/18dc-biden1/18dc-biden1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/20037380-bff1-5572-85cb-75613c0198fe",
+      "url": "https://www.nytimes.com/2022/06/15/us/trump-emails-eastman-chesebro-jan-6.html",
+      "id": 100000008401020,
+      "asset_id": 100000008401020,
+      "source": "New York Times",
+      "published_date": "2022-06-15",
+      "updated": "2022-06-16 12:34:37",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Storming of the US Capitol (Jan, 2021);Presidential Election of 2020;United States Politics and Government;Pence, Mike;Trump, Donald J;Eastman, John C;Chesebro, Kenneth;House Select Committee to Investigate the January 6th Attack",
+      "column": null,
+      "byline": "By Luke Broadwater and Maggie Haberman",
+      "type": "Article",
+      "title": "Trump Lawyer Cited ‘Heated Fight’ Among Justices Over Election Suits",
+      "abstract": "In an email weeks after the election, another lawyer advising the Trump campaign responded that the prospect of “‘wild’ chaos” on Jan. 6 could lead the Supreme Court to take up a case.",
+      "des_facet": [
+        "Storming of the US Capitol (Jan, 2021)",
+        "Presidential Election of 2020",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack"
+      ],
+      "per_facet": [
+        "Pence, Mike",
+        "Trump, Donald J",
+        "Eastman, John C",
+        "Chesebro, Kenneth"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The pro-Trump lawyer John Eastman, left, and Rudolph W. Giuliani at a rally near the White House on Jan. 6, 2021. Mr. Eastman, who aided in the pressure campaign against Mr. Pence, later sought a pardon through Mr. Giuliani, according to testimony at the hearing.",
+          "copyright": "Jim Bourg/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/15/multimedia/15dc-jan6-eastman/15dc-jan6-eastman-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/15/multimedia/15dc-jan6-eastman/15dc-jan6-eastman-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/15/multimedia/15dc-jan6-eastman/15dc-jan6-eastman-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5ce8884a-f400-56e8-a8b2-d127c782cbcf",
+      "url": "https://www.nytimes.com/2022/06/23/us/politics/jeffrey-clark-trump-justice-dept.html",
+      "id": 100000008412654,
+      "asset_id": 100000008412654,
+      "source": "New York Times",
+      "published_date": "2022-06-23",
+      "updated": "2022-06-24 11:18:10",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2020;Storming of the US Capitol (Jan, 2021);United States Politics and Government;Voter Fraud (Election Fraud);Rumors and Misinformation;Clark, Jeffrey B (1967- );Trump, Donald J;Justice Department;House Select Committee to Investigate the January 6th Attack",
+      "column": null,
+      "byline": "By Alan Feuer, Adam Goldman and Maggie Haberman",
+      "type": "Article",
+      "title": "Federal Authorities Search Home of Trump Justice Dept. Official",
+      "abstract": "Investigators went to the suburban Washington home of Jeffrey Clark in connection with the sprawling inquiry into the Jan. 6 attack and the effort to overturn the 2020 election.",
+      "des_facet": [
+        "Presidential Election of 2020",
+        "Storming of the US Capitol (Jan, 2021)",
+        "United States Politics and Government",
+        "Voter Fraud (Election Fraud)",
+        "Rumors and Misinformation"
+      ],
+      "org_facet": [
+        "Justice Department",
+        "House Select Committee to Investigate the January 6th Attack"
+      ],
+      "per_facet": [
+        "Clark, Jeffrey B (1967- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Investigators went to the home of Jeffrey Clark, a former Justice Department official, on Wednesday.",
+          "copyright": "Yuri Gripas/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/us/politics/23dc-investigate/merlin_204642948_a98eaa19-048f-438d-8606-5a31524b1009-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/us/politics/23dc-investigate/23dc-investigate-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/us/politics/23dc-investigate/23dc-investigate-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4a39c1db-d648-5128-8106-03a85fa6b4b5",
+      "url": "https://www.nytimes.com/2022/06/17/style/louis-theroux-jiggle-jiggle-tiktok.html",
+      "id": 100000008400176,
+      "asset_id": 100000008400176,
+      "source": "New York Times",
+      "published_date": "2022-06-17",
+      "updated": "2022-06-21 09:26:25",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Social Media;Rap and Hip-Hop;Content Type: Personal Profile;Documentary Films and Programs;Theroux, Louis (1970- );TikTok (ByteDance)",
+      "column": null,
+      "byline": "By Steven Kurutz",
+      "type": "Article",
+      "title": "How Louis Theroux Became a ‘Jiggle Jiggle’ Sensation at Age 52",
+      "abstract": "Decades into his career, the British American journalist has an unlikely TikTok hit that could be the song of the summer. “I am not trying to make it as a rapper,” he says.",
+      "des_facet": [
+        "Social Media",
+        "Rap and Hip-Hop",
+        "Content Type: Personal Profile",
+        "Documentary Films and Programs"
+      ],
+      "org_facet": [
+        "TikTok (ByteDance)"
+      ],
+      "per_facet": [
+        "Theroux, Louis (1970- )"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "His money doesn’t jiggle jiggle. It folds. The documentary filmmaker (and rapper?) Louis Theroux at his home in London.",
+          "copyright": "Alexander Coggin for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/fashion/17THEROUX1/17THEROUX1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/fashion/17THEROUX1/17THEROUX1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/fashion/17THEROUX1/17THEROUX1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/85ed0e55-aded-5ad0-9697-699573e1d7fe",
+      "url": "https://www.nytimes.com/2022/06/15/movies/emma-thompson-good-luck-to-you-leo-grande.html",
+      "id": 100000008399032,
+      "asset_id": 100000008399032,
+      "source": "New York Times",
+      "published_date": "2022-06-15",
+      "updated": "2022-06-19 07:52:34",
+      "section": "Movies",
+      "subsection": "",
+      "nytdsection": "movies",
+      "adx_keywords": "Movies;Women and Girls;Sex;Content Type: Personal Profile;Nudism and Nudity;Actors and Actresses;Hyde, Sophie;Thompson, Emma",
+      "column": null,
+      "byline": "By Nicole Sperling",
+      "type": "Article",
+      "title": "Emma Thompson and the Challenge of Baring All Onscreen at 63",
+      "abstract": "The actress made the choice to disrobe. Still, she says, it was the most difficult thing she’s ever done in her four-decade career.",
+      "des_facet": [
+        "Movies",
+        "Women and Girls",
+        "Sex",
+        "Content Type: Personal Profile",
+        "Nudism and Nudity",
+        "Actors and Actresses"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Hyde, Sophie",
+        "Thompson, Emma"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "If “you want the iconography of the female body to change,” Emma Thompson said, “then you better be part of the change.”",
+          "copyright": "Charlotte Hadden for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/arts/17emma-thompson4/17emma-thompson4-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/arts/17emma-thompson4/17emma-thompson4-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/arts/17emma-thompson4/17emma-thompson4-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/77eade38-f61d-5694-8e1d-a9dc862a00f3",
+      "url": "https://www.nytimes.com/2022/06/18/us/juneteenth-states-paid-holiday.html",
+      "id": 100000008404166,
+      "asset_id": 100000008404166,
+      "source": "New York Times",
+      "published_date": "2022-06-18",
+      "updated": "2022-06-20 11:30:48",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Holidays and Special Occasions;Juneteenth;States (US);Law and Legislation;Black People;Budgets and Budgeting",
+      "column": null,
+      "byline": "By Maria Cramer",
+      "type": "Article",
+      "title": "Juneteenth Is a Federal Holiday, but in Most States It’s Still Not a Day Off",
+      "abstract": "One year after President Biden made Juneteenth a federal holiday, 26 states have not authorized the funding that would allow for state employees to take the day off.",
+      "des_facet": [
+        "Holidays and Special Occasions",
+        "Juneteenth",
+        "States (US)",
+        "Law and Legislation",
+        "Black People",
+        "Budgets and Budgeting"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Juneteenth celebrations in Brooklyn. New York is one of the states that gave state employees paid time off to commemorate the day last year.",
+          "copyright": "Laylah Amatullah Barrayn for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/18xp-juneteenth1/18xp-juneteenth1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/18xp-juneteenth1/18xp-juneteenth1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/18xp-juneteenth1/18xp-juneteenth1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/2703731e-d1e7-5b9b-b920-55b3221562f8",
+      "url": "https://www.nytimes.com/2022/06/21/us/politics/ivanka-trump-election.html",
+      "id": 100000008409150,
+      "asset_id": 100000008409150,
+      "source": "New York Times",
+      "published_date": "2022-06-21",
+      "updated": "2022-06-22 15:32:55",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2020;Storming of the US Capitol (Jan, 2021);United States Politics and Government;Documentary Films and Programs;Trump, Ivanka;Trump, Donald J;House Select Committee to Investigate the January 6th Attack",
+      "column": null,
+      "byline": "By Maggie Haberman",
+      "type": "Article",
+      "title": "Ivanka Trump expressed a different view on the election to a filmmaker.",
+      "abstract": "Ms. Trump told a film crew in December 2020 that her father should “continue to fight until every legal remedy is exhausted” because people were questioning “the sanctity of our elections.”",
+      "des_facet": [
+        "Presidential Election of 2020",
+        "Storming of the US Capitol (Jan, 2021)",
+        "United States Politics and Government",
+        "Documentary Films and Programs"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack"
+      ],
+      "per_facet": [
+        "Trump, Ivanka",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ivanka Trump and her husband, Jared Kushner, at the White House in 2020.",
+          "copyright": "Anna Moneymaker for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/21/multimedia/21jan6-hearings-ivanka-video2/21jan6-hearings-ivanka-video2-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/21/multimedia/21jan6-hearings-ivanka-video2/21jan6-hearings-ivanka-video2-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/21/multimedia/21jan6-hearings-ivanka-video2/21jan6-hearings-ivanka-video2-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9a8e9b8b-3d01-58bd-894d-59872fa642f3",
+      "url": "https://www.nytimes.com/2022/06/17/us/stephen-colbert-crew-arrested.html",
+      "id": 100000008405592,
+      "asset_id": 100000008405592,
+      "source": "New York Times",
+      "published_date": "2022-06-17",
+      "updated": "2022-06-20 00:36:39",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Capitol Building (Washington, DC);Comedy and Humor;Television;CBS Corporation;United States Capitol Police",
+      "column": null,
+      "byline": "By Vimal Patel and Mike Ives",
+      "type": "Article",
+      "title": "‘Late Show’ Production Team Arrested at U.S. Capitol While Filming Television Stunt",
+      "abstract": "The production team members had been recording interviews at a Capitol building for a comedy segment on “The Late Show With Stephen Colbert.” They were charged with unlawful entry.",
+      "des_facet": [
+        "Capitol Building (Washington, DC)",
+        "Comedy and Humor",
+        "Television"
+      ],
+      "org_facet": [
+        "CBS Corporation",
+        "United States Capitol Police"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The actor and comedian Robert Smigel performs as Triumph the Insult Comic Dog at the Capitol on Thursday, before members of the “Late Show With Stephen Colbert” were arrested as part of an apparent stunt there.",
+          "copyright": "Chip Somodevilla/Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/17xp-colbert/merlin_208660167_5a0bbdfe-6ed1-42cf-ab5a-cd40aa0634ce-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/17xp-colbert/merlin_208660167_5a0bbdfe-6ed1-42cf-ab5a-cd40aa0634ce-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/17xp-colbert/merlin_208660167_5a0bbdfe-6ed1-42cf-ab5a-cd40aa0634ce-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a21f0265-fdec-5863-87f5-a5b176bc1211",
+      "url": "https://www.nytimes.com/2022/06/23/sports/olympics/anita-alvarez-world-aquatics-championships.html",
+      "id": 100000008412297,
+      "asset_id": 100000008412297,
+      "source": "New York Times",
+      "published_date": "2022-06-23",
+      "updated": "2022-06-24 12:38:41",
+      "section": "Sports",
+      "subsection": "Olympics",
+      "nytdsection": "sports",
+      "adx_keywords": "Swimming;Fainting;Rescues;Coaches and Managers;Alvarez, Anita (1996- );Fuentes, Andrea (1983- )",
+      "column": null,
+      "byline": "By Andrew Das",
+      "type": "Article",
+      "title": "She Fainted During the World Championships. Her Coach Came to the Rescue.",
+      "abstract": "Anita Alvarez, an American artistic swimmer, lost consciousness while performing her solo routine in Budapest. She was “fine” afterward, her coach said.",
+      "des_facet": [
+        "Swimming",
+        "Fainting",
+        "Rescues",
+        "Coaches and Managers"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Alvarez, Anita (1996- )",
+        "Fuentes, Andrea (1983- )"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Anita Alvarez, an American swimmer, was rescued from the bottom of the pool during the world championships in Budapest on Wednesday.",
+          "copyright": "Oli Scarff/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/world/23swimming1/23swimming1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/world/23swimming1/merlin_208977201_8b8565a1-f631-4ae3-b60b-b3c322f0cae9-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/23/world/23swimming1/merlin_208977201_8b8565a1-f631-4ae3-b60b-b3c322f0cae9-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/059dad61-52d1-5d70-8b23-323bf57e8da2",
+      "url": "https://www.nytimes.com/2022/06/18/us/politics/trump-jan-6-legal-defense.html",
+      "id": 100000008405242,
+      "asset_id": 100000008405242,
+      "source": "New York Times",
+      "published_date": "2022-06-18",
+      "updated": "2022-06-21 09:15:07",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Storming of the US Capitol (Jan, 2021);Presidential Election of 2020;United States Politics and Government;Voter Fraud (Election Fraud);Rumors and Misinformation;Treason and Sedition;Ethics and Official Misconduct;Trump, Donald J;House Select Committee to Investigate the January 6th Attack;Justice Department",
+      "column": null,
+      "byline": "By Michael S. Schmidt and Maggie Haberman",
+      "type": "Article",
+      "title": "Despite Growing Evidence, a Prosecution of Trump Would Face Challenges",
+      "abstract": "As House hearings highlighted testimony that could create more pressure to pursue a criminal case, the former president tried out a defense that strained credulity.",
+      "des_facet": [
+        "Storming of the US Capitol (Jan, 2021)",
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Voter Fraud (Election Fraud)",
+        "Rumors and Misinformation",
+        "Treason and Sedition",
+        "Ethics and Official Misconduct"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack",
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump at a rally in Casper, Wyo., last month. If the Justice Department brings a case against him, the prosecution could hinge on the government’s ability to establish his intent.",
+          "copyright": "Natalie Behring for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/politics/18dc-trump-legal1/18dc-trump-legal1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/politics/18dc-trump-legal1/18dc-trump-legal1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/18/us/politics/18dc-trump-legal1/18dc-trump-legal1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1a5b63e2-cf9e-57ec-af0a-cb8621ee8481",
+      "url": "https://www.nytimes.com/2022/06/16/world/europe/italy-assisted-suicide.html",
+      "id": 100000008402069,
+      "asset_id": 100000008402069,
+      "source": "New York Times",
+      "published_date": "2022-06-16",
+      "updated": "2022-06-21 13:51:13",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Euthanasia and Assisted Suicide;Law and Legislation;Politics and Government;Legislatures and Parliaments;Paralysis;Francis;Roman Catholic Church;Italy",
+      "column": null,
+      "byline": "By Elisabetta Povoledo",
+      "type": "Article",
+      "title": "Man Paralyzed 12 Years Ago Becomes Italy’s First Assisted Suicide",
+      "abstract": "The man, Federico Carboni, overcame a series of legal and bureaucratic challenges before ending his life.",
+      "des_facet": [
+        "Euthanasia and Assisted Suicide",
+        "Law and Legislation",
+        "Politics and Government",
+        "Legislatures and Parliaments",
+        "Paralysis"
+      ],
+      "org_facet": [
+        "Roman Catholic Church"
+      ],
+      "per_facet": [
+        "Francis"
+      ],
+      "geo_facet": [
+        "Italy"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On Thursday, Federico Carboni ended his life, becoming Italy’s first legal assisted suicide.",
+          "copyright": "Luca Coscioni Association",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/world/16Italy-Suicide/16Italy-Suicide-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/world/16Italy-Suicide/16Italy-Suicide-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/16/world/16Italy-Suicide/16Italy-Suicide-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/8f0a89ba-5917-5e12-aa44-e79284bed4ff",
+      "url": "https://www.nytimes.com/2022/06/17/us/politics/donald-trump-pence-jan-6.html",
+      "id": 100000008405055,
+      "asset_id": 100000008405055,
+      "source": "New York Times",
+      "published_date": "2022-06-17",
+      "updated": "2022-06-18 10:41:35",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2020;United States Politics and Government;Rumors and Misinformation;Voter Fraud (Election Fraud);Trump, Donald J;Pence, Mike;House Select Committee to Investigate the January 6th Attack;Republican Party",
+      "column": null,
+      "byline": "By Maggie Haberman",
+      "type": "Article",
+      "title": "A Day After a Portrait of Pence in Danger, Trump Attacks Him Again",
+      "abstract": "In a speech, Donald J. Trump was undeterred by the Jan. 6 House committee’s account of how his rioting supporters menaced the vice president, and the panel’s dismantling of many of his election lies.",
+      "des_facet": [
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Rumors and Misinformation",
+        "Voter Fraud (Election Fraud)"
+      ],
+      "org_facet": [
+        "House Select Committee to Investigate the January 6th Attack",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Pence, Mike"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In a speech on Friday in Nashville, former President Donald J. Trump continued to attack his former vice president for not blocking the certification of his 2020 defeat, even though doing so would have been illegal.",
+          "copyright": "Mark Humphrey/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/multimedia/17pol-trump-photo/17pol-trump-photo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/multimedia/17pol-trump-photo/17pol-trump-photo-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/multimedia/17pol-trump-photo/17pol-trump-photo-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/5630112c-0bd8-5221-91ee-4b23bdc07951",
+      "url": "https://www.nytimes.com/2022/06/21/us/politics/russia-ukraine-east-war.html",
+      "id": 100000008397982,
+      "asset_id": 100000008397982,
+      "source": "New York Times",
+      "published_date": "2022-06-21",
+      "updated": "2022-06-21 09:49:01",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Russian Invasion of Ukraine (2022);United States International Relations;Defense and Military Forces;Foreign Aid;Austin, Lloyd J III;Milley, Mark A;Zelensky, Volodymyr;Biden, Joseph R Jr;North Atlantic Treaty Organization;Donbas (Ukraine);Donetsk (Ukraine);Luhansk (Ukraine);Russia;Sievierodonetsk (Ukraine)",
+      "column": null,
+      "byline": "By Helene Cooper, Eric Schmitt and Julian E. Barnes",
+      "type": "Article",
+      "title": "After a Pivotal Period in Ukraine, U.S. Officials Predict the War’s Path",
+      "abstract": "As Russia makes slow but steady progress, the arrival of new weapons systems will help Ukraine hang on to territory, U.S. officials and analysts say.",
+      "des_facet": [
+        "Russian Invasion of Ukraine (2022)",
+        "United States International Relations",
+        "Defense and Military Forces",
+        "Foreign Aid"
+      ],
+      "org_facet": [
+        "North Atlantic Treaty Organization"
+      ],
+      "per_facet": [
+        "Austin, Lloyd J III",
+        "Milley, Mark A",
+        "Zelensky, Volodymyr",
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [
+        "Donbas (Ukraine)",
+        "Donetsk (Ukraine)",
+        "Luhansk (Ukraine)",
+        "Russia",
+        "Sievierodonetsk (Ukraine)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ukrainian soldiers atop an armored fighting vehicle in an area near Kramatorsk, in the Donbas region, early this month.",
+          "copyright": "Ivor Prickett for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/politics/17dc-sixweeks-1/17dc-sixweeks-1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/politics/17dc-sixweeks-1/merlin_208053330_50a036cb-6d3e-41d3-8599-c5e98dd0d96f-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/us/politics/17dc-sixweeks-1/merlin_208053330_50a036cb-6d3e-41d3-8599-c5e98dd0d96f-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/82c3f0fc-b37a-54a1-8ac8-ab008cc913e0",
+      "url": "https://www.nytimes.com/2022/06/21/us/uvalde-texas-police-mccraw.html",
+      "id": 100000008407406,
+      "asset_id": 100000008407406,
+      "source": "New York Times",
+      "published_date": "2022-06-21",
+      "updated": "2022-06-22 20:23:51",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Uvalde, Tex, Shooting (May 24, 2022);Police Brutality, Misconduct and Shootings;McCraw, Steven C;Arredondo, Pedro;Public Safety Department (Tex);Robb Elementary School (Uvalde, Tex);Uvalde (Tex)",
+      "column": null,
+      "byline": "By J. David Goodman",
+      "type": "Article",
+      "title": "Head of State Police Calls Response to Uvalde Shooting an ‘Abject Failure’",
+      "abstract": "The director of the Department of Public Safety said that police officers wasted time looking for a classroom door key that was “never needed.”",
+      "des_facet": [
+        "Uvalde, Tex, Shooting (May 24, 2022)",
+        "Police Brutality, Misconduct and Shootings"
+      ],
+      "org_facet": [
+        "Public Safety Department (Tex)",
+        "Robb Elementary School (Uvalde, Tex)"
+      ],
+      "per_facet": [
+        "McCraw, Steven C",
+        "Arredondo, Pedro"
+      ],
+      "geo_facet": [
+        "Uvalde (Tex)"
+      ],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/33d9ce4e-4399-5896-b986-4d6c23162def",
+      "url": "https://www.nytimes.com/article/juneteenth-day-celebration.html",
+      "id": 100000007185972,
+      "asset_id": 100000007185972,
+      "source": "New York Times",
+      "published_date": "2020-06-13",
+      "updated": "2022-06-20 10:35:26",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Black People;Slavery (Historical);Emancipation Proclamation (1863);United States Politics and Government;Juneteenth;Trump, Donald J;Galveston (Tex);Tulsa (Okla)",
+      "column": null,
+      "byline": "By Derrick Bryson Taylor",
+      "type": "Article",
+      "title": "Juneteenth: The History of a Holiday",
+      "abstract": "On June 19, 1865, enslaved African Americans in Texas were told they were free. A century and a half later, people across the U.S. continue to celebrate the day, which is now a federal holiday.",
+      "des_facet": [
+        "Black People",
+        "Slavery (Historical)",
+        "Emancipation Proclamation (1863)",
+        "United States Politics and Government",
+        "Juneteenth"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Galveston (Tex)",
+        "Tulsa (Okla)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Spectators watch a Juneteenth parade in 2021 in Galveston, Texas, where the holiday got its start in the latter half of the 19th century.",
+          "copyright": "Callaghan O'Hare/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/13/multimedia/13xp-juneteenth-explainer-6/13xp-juneteenth-explainer-6-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/13/multimedia/13xp-juneteenth-explainer-6/13xp-juneteenth-explainer-6-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/13/multimedia/13xp-juneteenth-explainer-6/13xp-juneteenth-explainer-6-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/250e5439-7e91-5a49-aa7a-f15ec946da2b",
+      "url": "https://www.nytimes.com/2022/06/17/technology/spacex-employees-fired-musk-letter.html",
+      "id": 100000008403857,
+      "asset_id": 100000008403857,
+      "source": "New York Times",
+      "published_date": "2022-06-17",
+      "updated": "2022-06-18 13:16:35",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Private Spaceflight;Labor and Jobs;Workplace Hazards and Violations;Sexual Harassment;Musk, Elon;Shotwell, Gwynne;Space Exploration Technologies Corp",
+      "column": null,
+      "byline": "By Ryan Mac",
+      "type": "Article",
+      "title": "SpaceX Said to Fire Employees Involved in Letter Rebuking Elon Musk",
+      "abstract": "In an email, Gwynne Shotwell, SpaceX’s president, said the letter had made other employees “feel uncomfortable, intimidated and bullied.”",
+      "des_facet": [
+        "Private Spaceflight",
+        "Labor and Jobs",
+        "Workplace Hazards and Violations",
+        "Sexual Harassment"
+      ],
+      "org_facet": [
+        "Space Exploration Technologies Corp"
+      ],
+      "per_facet": [
+        "Musk, Elon",
+        "Shotwell, Gwynne"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A letter sent by some SpaceX employees said the public behavior and tweeting of Elon Musk, above, was “a frequent source of distraction and embarrassment.”",
+          "copyright": "Jim Watson/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/world/17spacex-01/17spacex-01-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/world/17spacex-01/17spacex-01-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/17/world/17spacex-01/17spacex-01-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/eef69e0a-b529-5bae-a7f8-c0382ae1e68c",
+      "url": "https://www.nytimes.com/2022/06/19/us/politics/texas-republicans-approve-far-right-platform-declaring-bidens-election-illegitimate.html",
+      "id": 100000008406193,
+      "asset_id": 100000008406193,
+      "source": "New York Times",
+      "published_date": "2022-06-19",
+      "updated": "2022-06-21 09:22:25",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Project Democracy;Presidential Election of 2020;Rumors and Misinformation;Gun Control;Homosexuality and Bisexuality;Abortion;Trump, Donald J;Republican Party;Texas",
+      "column": null,
+      "byline": "By Azi Paybarah and David Montgomery",
+      "type": "Article",
+      "title": "Texas Republicans Approve Far-Right Platform Declaring Biden’s Election Illegitimate",
+      "abstract": "The platform, which was voted on at the Republican state party convention in Houston, was the latest sign of Texas conservatives moving further to the right.",
+      "des_facet": [
+        "Project Democracy",
+        "Presidential Election of 2020",
+        "Rumors and Misinformation",
+        "Gun Control",
+        "Homosexuality and Bisexuality",
+        "Abortion"
+      ],
+      "org_facet": [
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Texas"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A resolution adopting the false claim that former President Donald J. Trump was the victim of a stolen election in 2020 was passed by Republican state-party delegates in Texas.",
+          "copyright": "Leah Millis/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/19/multimedia/19pol-TexasGOP/19pol-TexasGOP-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/19/multimedia/19pol-TexasGOP/merlin_208811355_2b1b290c-002f-4f7c-a7e1-41636906ccee-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/19/multimedia/19pol-TexasGOP/merlin_208811355_2b1b290c-002f-4f7c-a7e1-41636906ccee-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/542b6fb9-67dc-5fb6-b26c-eabcb038ba7e",
+      "url": "https://www.nytimes.com/2022/06/23/health/fda-juul-ecigarettes-ban.html",
+      "id": 100000008410401,
+      "asset_id": 100000008410401,
+      "source": "New York Times",
+      "published_date": "2022-06-23",
+      "updated": "2022-06-24 10:36:10",
+      "section": "Health",
+      "subsection": "",
+      "nytdsection": "health",
+      "adx_keywords": "E-Cigarettes;Recalls and Bans of Products;Teenagers and Adolescence;Nicotine;Regulation and Deregulation of Industry;Food and Drug Administration;Juul Labs Inc;Altria Group Inc",
+      "column": null,
+      "byline": "By Matt Richtel and Andrew Jacobs",
+      "type": "Article",
+      "title": "F.D.A. Orders Juul to Stop Selling E-Cigarettes",
+      "abstract": "The agency ruled against the company’s application to stay on the market, a decisive blow to a once-popular vaping brand that appealed to teenagers.",
+      "des_facet": [
+        "E-Cigarettes",
+        "Recalls and Bans of Products",
+        "Teenagers and Adolescence",
+        "Nicotine",
+        "Regulation and Deregulation of Industry"
+      ],
+      "org_facet": [
+        "Food and Drug Administration",
+        "Juul Labs Inc",
+        "Altria Group Inc"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "In its heyday, Juul occupied 75 percent of the market share and employed 4,000 people.",
+          "copyright": "Jeenah Moon for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/science/22JUUL/22JUUL-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/science/22JUUL/22JUUL-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/science/22JUUL/22JUUL-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/21368ee6-1186-5636-9b29-f7576aa4352f",
+      "url": "https://www.nytimes.com/2022/06/22/business/media/rupert-murdoch-divorce-jerry-hall.html",
+      "id": 100000008408687,
+      "asset_id": 100000008408687,
+      "source": "New York Times",
+      "published_date": "2022-06-22",
+      "updated": "2022-06-23 11:32:24",
+      "section": "Business",
+      "subsection": "Media",
+      "nytdsection": "business",
+      "adx_keywords": "Newspapers;News and News Media;Divorce, Separations and Annulments;Hall, Jerry;Murdoch, Rupert;News Corporation",
+      "column": null,
+      "byline": "By Jim Rutenberg and Benjamin Mullin",
+      "type": "Article",
+      "title": "Rupert Murdoch and Jerry Hall Are Said to Be Divorcing",
+      "abstract": "The media mogul’s fourth divorce is unlikely to change the ownership structure of Mr. Murdoch’s empire, but it could reverberate through companies such as Fox News and The Wall Street Journal.",
+      "des_facet": [
+        "Newspapers",
+        "News and News Media",
+        "Divorce, Separations and Annulments"
+      ],
+      "org_facet": [
+        "News Corporation"
+      ],
+      "per_facet": [
+        "Hall, Jerry",
+        "Murdoch, Rupert"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rupert Murdoch and Jerry Hall in 2019, three years into their marriage. ",
+          "copyright": "Danny Moloshok/Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/business/22divorce/22divorce-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/business/22divorce/22divorce-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/22/business/22divorce/22divorce-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/29b2fd90-05c5-57a9-8431-97f7a97d9069",
+      "url": "https://www.nytimes.com/2022/06/20/us/politics/eric-greitens-rino-ad.html",
+      "id": 100000008407064,
+      "asset_id": 100000008407064,
+      "source": "New York Times",
+      "published_date": "2022-06-20",
+      "updated": "2022-06-21 11:17:49",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Political Advertising;Elections, Senate;Conservatism (US Politics);Midterm Elections (2022);Greitens, Eric;Republican Party;Missouri",
+      "column": null,
+      "byline": "By Alan Feuer",
+      "type": "Article",
+      "title": "In Ad, Shotgun-Toting Greitens Asks Voters to Go ‘RINO Hunting’",
+      "abstract": "A right-wing Senate candidate accompanies a squad of heavily armed men as they storm a home looking for ‘Republicans in name only.’",
+      "des_facet": [
+        "Political Advertising",
+        "Elections, Senate",
+        "Conservatism (US Politics)",
+        "Midterm Elections (2022)"
+      ],
+      "org_facet": [
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Greitens, Eric"
+      ],
+      "geo_facet": [
+        "Missouri"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A still image from a political ad for Eric Greitens, a Republican candidate for Senate in Missouri.",
+          "copyright": "Greitens for U.S. Senate ",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/06/20/us/politics/POL-RINO-AD/POL-RINO-AD-thumbStandard-v3.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/20/us/politics/POL-RINO-AD/POL-RINO-AD-mediumThreeByTwo210-v3.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/06/20/us/politics/POL-RINO-AD/POL-RINO-AD-mediumThreeByTwo440-v3.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

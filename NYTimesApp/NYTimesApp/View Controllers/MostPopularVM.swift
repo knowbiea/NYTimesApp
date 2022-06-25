@@ -24,7 +24,7 @@ final class MostPopularVM: MostPopularProtocol {
 
     // MARK: - API Calling
     func getMostPopularNews(completion: @escaping (String?, Bool) -> Void) {
-        API.APIModelRequest(MostPopular.self, API.Endpoints.mostPopular.stringValue) { response in
+        HTTPClient.APIModelRequest(MostPopular.self, Endpoints.mostPopular.string) { response in
             self.results = response.results
             completion(nil, true)
 
