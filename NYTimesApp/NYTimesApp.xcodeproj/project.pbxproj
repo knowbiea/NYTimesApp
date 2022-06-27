@@ -17,7 +17,7 @@
 		A4D858AD28632C4F009715BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D858AB28632C4F009715BF /* Main.storyboard */; };
 		A4D858AF28632C50009715BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D858AE28632C50009715BF /* Assets.xcassets */; };
 		A4D858B228632C50009715BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D858B028632C50009715BF /* LaunchScreen.storyboard */; };
-		A4D858BD28632C50009715BF /* NYTimesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858BC28632C50009715BF /* NYTimesAppTests.swift */; };
+		A4D858BD28632C50009715BF /* MostPopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858BC28632C50009715BF /* MostPopularVC.swift */; };
 		A4D858C728632C50009715BF /* NYTimesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858C628632C50009715BF /* NYTimesAppUITests.swift */; };
 		A4D858C928632C50009715BF /* NYTimesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858C828632C50009715BF /* NYTimesAppUITestsLaunchTests.swift */; };
 		A4D858DB28632CC8009715BF /* MostPopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858D628632CC8009715BF /* MostPopularVC.swift */; };
@@ -67,7 +67,7 @@
 		A4D858B128632C50009715BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D858B328632C50009715BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D858B828632C50009715BF /* NYTimesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4D858BC28632C50009715BF /* NYTimesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAppTests.swift; sourceTree = "<group>"; };
+		A4D858BC28632C50009715BF /* MostPopularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularVC.swift; sourceTree = "<group>"; };
 		A4D858C228632C50009715BF /* NYTimesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D858C628632C50009715BF /* NYTimesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAppUITests.swift; sourceTree = "<group>"; };
 		A4D858C828632C50009715BF /* NYTimesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				A48DDB4D28673507005A9335 /* Mockable.swift */,
 				A48DDB4A286733AB005A9335 /* Mocks */,
 				A48DDB4728673398005A9335 /* JSON Responses */,
-				A4D858BC28632C50009715BF /* NYTimesAppTests.swift */,
+				A4D858BC28632C50009715BF /* MostPopularVC.swift */,
 			);
 			path = NYTimesAppTests;
 			sourceTree = "<group>";
@@ -512,7 +512,7 @@
 			files = (
 				A48DDB4C286733C3005A9335 /* HTTPClientMock.swift in Sources */,
 				A48DDB4E28673507005A9335 /* Mockable.swift in Sources */,
-				A4D858BD28632C50009715BF /* NYTimesAppTests.swift in Sources */,
+				A4D858BD28632C50009715BF /* MostPopularVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
