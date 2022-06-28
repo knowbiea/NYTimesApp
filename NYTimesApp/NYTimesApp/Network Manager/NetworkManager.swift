@@ -1,5 +1,5 @@
 //
-//  HTTPClient.swift
+//  NetworkManager.swift
 //  NYTimesApp
 //
 //  Created by Arvind on 22/06/22.
@@ -10,10 +10,10 @@ import Alamofire
 
 let reachabilityManager = Alamofire.NetworkReachabilityManager(host: "www.google.com")
 
-class HTTPClient {
+class NetworkManager {
     
     @discardableResult
-    class func APIModelRequest<T:Decodable>(_ model:T.Type, _ url: String, _ httpMethod: HTTPMethod = .get, _ header: Dictionary<String, String>? = nil, _ parameter: [String: AnyObject]? = nil, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest? {
+    class func apiModelRequest<T: Decodable>(_ model:T.Type, _ url: String, _ httpMethod: HTTPMethod = .get, _ header: Dictionary<String, String>? = nil, _ parameter: [String: AnyObject]? = nil, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest? {
         
         if !(reachabilityManager!.isReachable) {
             print("reachabilityManager is not Connected")
@@ -63,18 +63,4 @@ struct APIHeader {
     static let applicationFormURLEncoded = "application/x-www-form-urlencoded"
     static let applicationJson = "application/json"
     static let multipartFormData = "multipart/form-data"
-}
-
-enum Endpoints {
-    static let base = "https://api.nytimes.com/"
-    static let apiKey = "ZOyC8fSalGYf7yrPUGKRAKej1UVTtxfI"
-    
-    case mostPopular
-    
-    var string: String {
-        switch self {
-        case .mostPopular: return Endpoints.base + "svc/mostpopular/v2/mostviewed/all-sections/7.json?api-key=" + Endpoints.apiKey
-        
-        }
-    }
 }

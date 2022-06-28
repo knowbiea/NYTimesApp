@@ -1,5 +1,5 @@
 //
-//  HTTPClientMock.swift
+//  NetworkManager.swift
 //  NYTimesAppTests
 //
 //  Created by Arvind on 25/06/22.
@@ -9,9 +9,9 @@ import UIKit
 import Alamofire
 @testable import NYTimesApp
 
-class HTTPClientMock: HTTPClient {
+class NetworkManagerMock: NetworkManager {
     @discardableResult
-    override class func APIModelRequest<T: Decodable>(_ model:T.Type, _ url: String, _ httpMethod: HTTPMethod = .get, _ header: Dictionary<String, String>? = nil, _ parameter: [String: AnyObject]? = nil, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest? {
+    override class func apiModelRequest<T: Decodable>(_ model:T.Type, _ url: String, _ httpMethod: HTTPMethod = .get, _ header: Dictionary<String, String>? = nil, _ parameter: [String: AnyObject]? = nil, success:@escaping (T) -> Void, failure:@escaping (Error) -> Void) -> DataRequest? {
         
         let request = AF.request(url, method: httpMethod, parameters: parameter, encoding: JSONEncoding.default, headers: HTTPHeaders(header ?? [:])).response { response in
             

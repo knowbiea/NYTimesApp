@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		2BD9E519A30223CA5057FDCF /* Pods_NYTimesAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491F0CB01BFC7EA32D968AA3 /* Pods_NYTimesAppTests.framework */; };
 		8ABE60D8567028AFA9B7C9CD /* Pods_NYTimesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9445258D7C0E733224376AE6 /* Pods_NYTimesApp.framework */; };
+		A44903EE28699F8000B80BFB /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44903ED28699F8000B80BFB /* Endpoints.swift */; };
 		A48DDB4928673398005A9335 /* MostPopular.json in Resources */ = {isa = PBXBuildFile; fileRef = A48DDB4828673398005A9335 /* MostPopular.json */; };
-		A48DDB4C286733C3005A9335 /* HTTPClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DDB4B286733C3005A9335 /* HTTPClientMock.swift */; };
-		A48DDB4E28673507005A9335 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DDB4D28673507005A9335 /* Mockable.swift */; };
+		A48DDB4C286733C3005A9335 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48DDB4B286733C3005A9335 /* NetworkManagerMock.swift */; };
 		A4D858A628632C4F009715BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858A528632C4F009715BF /* AppDelegate.swift */; };
 		A4D858A828632C4F009715BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858A728632C4F009715BF /* SceneDelegate.swift */; };
 		A4D858AD28632C4F009715BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D858AB28632C4F009715BF /* Main.storyboard */; };
 		A4D858AF28632C50009715BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D858AE28632C50009715BF /* Assets.xcassets */; };
 		A4D858B228632C50009715BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D858B028632C50009715BF /* LaunchScreen.storyboard */; };
-		A4D858BD28632C50009715BF /* MostPopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858BC28632C50009715BF /* MostPopularVC.swift */; };
+		A4D858BD28632C50009715BF /* MostPopularVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858BC28632C50009715BF /* MostPopularVCTests.swift */; };
 		A4D858C728632C50009715BF /* NYTimesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858C628632C50009715BF /* NYTimesAppUITests.swift */; };
 		A4D858C928632C50009715BF /* NYTimesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858C828632C50009715BF /* NYTimesAppUITestsLaunchTests.swift */; };
 		A4D858DB28632CC8009715BF /* MostPopularVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858D628632CC8009715BF /* MostPopularVC.swift */; };
 		A4D858DC28632CC8009715BF /* MostPopularVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858D728632CC8009715BF /* MostPopularVM.swift */; };
 		A4D858DD28632CC8009715BF /* MostPopularTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858D928632CC8009715BF /* MostPopularTVCell.swift */; };
 		A4D858DE28632CC8009715BF /* MostPopularTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D858DA28632CC8009715BF /* MostPopularTVCell.xib */; };
-		A4D858E628632CD3009715BF /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858E028632CD3009715BF /* HTTPClient.swift */; };
+		A4D858E628632CD3009715BF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858E028632CD3009715BF /* NetworkManager.swift */; };
 		A4D858E728632CD3009715BF /* MostPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858E228632CD3009715BF /* MostPopular.swift */; };
 		A4D858E828632CD3009715BF /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858E428632CD3009715BF /* UIColor+Ext.swift */; };
 		A4D858E928632CD3009715BF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D858E528632CD3009715BF /* UIView+Ext.swift */; };
@@ -56,9 +56,9 @@
 		8210B26E5E7A817C62784071 /* Pods-NYTimesApp-NYTimesAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesApp-NYTimesAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTimesApp-NYTimesAppUITests/Pods-NYTimesApp-NYTimesAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		891590482B7F46503F0ABAB0 /* Pods-NYTimesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NYTimesAppTests/Pods-NYTimesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9445258D7C0E733224376AE6 /* Pods_NYTimesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44903ED28699F8000B80BFB /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		A48DDB4828673398005A9335 /* MostPopular.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MostPopular.json; sourceTree = "<group>"; };
-		A48DDB4B286733C3005A9335 /* HTTPClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientMock.swift; sourceTree = "<group>"; };
-		A48DDB4D28673507005A9335 /* Mockable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		A48DDB4B286733C3005A9335 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
 		A4D858A228632C4F009715BF /* NYTimesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D858A528632C4F009715BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D858A728632C4F009715BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		A4D858B128632C50009715BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D858B328632C50009715BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D858B828632C50009715BF /* NYTimesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4D858BC28632C50009715BF /* MostPopularVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularVC.swift; sourceTree = "<group>"; };
+		A4D858BC28632C50009715BF /* MostPopularVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularVCTests.swift; sourceTree = "<group>"; };
 		A4D858C228632C50009715BF /* NYTimesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D858C628632C50009715BF /* NYTimesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAppUITests.swift; sourceTree = "<group>"; };
 		A4D858C828632C50009715BF /* NYTimesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		A4D858D728632CC8009715BF /* MostPopularVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularVM.swift; sourceTree = "<group>"; };
 		A4D858D928632CC8009715BF /* MostPopularTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularTVCell.swift; sourceTree = "<group>"; };
 		A4D858DA28632CC8009715BF /* MostPopularTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MostPopularTVCell.xib; sourceTree = "<group>"; };
-		A4D858E028632CD3009715BF /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		A4D858E028632CD3009715BF /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A4D858E228632CD3009715BF /* MostPopular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopular.swift; sourceTree = "<group>"; };
 		A4D858E428632CD3009715BF /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		A4D858E528632CD3009715BF /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		A48DDB4A286733AB005A9335 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				A48DDB4B286733C3005A9335 /* HTTPClientMock.swift */,
+				A48DDB4B286733C3005A9335 /* NetworkManagerMock.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -179,10 +179,9 @@
 		A4D858BB28632C50009715BF /* NYTimesAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				A48DDB4D28673507005A9335 /* Mockable.swift */,
-				A48DDB4A286733AB005A9335 /* Mocks */,
 				A48DDB4728673398005A9335 /* JSON Responses */,
-				A4D858BC28632C50009715BF /* MostPopularVC.swift */,
+				A48DDB4A286733AB005A9335 /* Mocks */,
+				A4D858BC28632C50009715BF /* MostPopularVCTests.swift */,
 			);
 			path = NYTimesAppTests;
 			sourceTree = "<group>";
@@ -218,7 +217,8 @@
 		A4D858DF28632CD3009715BF /* Network Manager */ = {
 			isa = PBXGroup;
 			children = (
-				A4D858E028632CD3009715BF /* HTTPClient.swift */,
+				A4D858E028632CD3009715BF /* NetworkManager.swift */,
+				A44903ED28699F8000B80BFB /* Endpoints.swift */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";
@@ -498,7 +498,8 @@
 				A4D858DD28632CC8009715BF /* MostPopularTVCell.swift in Sources */,
 				A4D858A628632C4F009715BF /* AppDelegate.swift in Sources */,
 				A4D858A828632C4F009715BF /* SceneDelegate.swift in Sources */,
-				A4D858E628632CD3009715BF /* HTTPClient.swift in Sources */,
+				A44903EE28699F8000B80BFB /* Endpoints.swift in Sources */,
+				A4D858E628632CD3009715BF /* NetworkManager.swift in Sources */,
 				A4D858E928632CD3009715BF /* UIView+Ext.swift in Sources */,
 				A4D858E828632CD3009715BF /* UIColor+Ext.swift in Sources */,
 				A4D858E728632CD3009715BF /* MostPopular.swift in Sources */,
@@ -510,9 +511,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48DDB4C286733C3005A9335 /* HTTPClientMock.swift in Sources */,
-				A48DDB4E28673507005A9335 /* Mockable.swift in Sources */,
-				A4D858BD28632C50009715BF /* MostPopularVC.swift in Sources */,
+				A48DDB4C286733C3005A9335 /* NetworkManagerMock.swift in Sources */,
+				A4D858BD28632C50009715BF /* MostPopularVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
