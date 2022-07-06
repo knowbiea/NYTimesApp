@@ -29,13 +29,12 @@ class MostPopularTVCell: UITableViewCell {
     // MARK: - UITableViewCell
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        titleLabel.accessibilityIdentifier = "titleLabel"
+        titleLabel.accessibilityLabel = "Woman Is Fatally Shot While Pushing Baby in Stroller on Upper East Side"
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
-    
 }

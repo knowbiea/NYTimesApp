@@ -13,7 +13,6 @@ class NYTimesAppTests: XCTestCase {
     var mostPopularVC: MostPopularVC!
     var viewModel: MostPopularVM!
     var bundle: Bundle!
-    let mockMostResult = MostResults(uri: "", url: "", id: 100000008405898, assetID: 100000008405898, source: "New York Times", publishedDate: "2022-06-18", updated: "2022-06-19 12:23:25", section: "U.S.", subsection: "Politics", nytdsection: "u.s.", adxKeywords: "Bicycles and Bicycling;Falls;United States Politics and Government;Biden, Joseph R Jr;Rehoboth Beach (Del)", column: "", byline: "By Zach Montague", type: "Article", title: "Biden Takes Tumble During Bike Ride in Delaware", abstract: "The president did not need medical attention after he fell off his bike at a state park near his vacation home in Rehoboth Beach, according to the White House.", desFacet: ["Bicycles and Bicycling", "Falls", "United States Politics and Government"], orgFacet: [], perFacet: [], geoFacet: [], media: nil, etaID: 0)
     
     override func setUp() {
         super.setUp()
@@ -30,11 +29,19 @@ class NYTimesAppTests: XCTestCase {
         viewModel = nil
     }
     
-    func test_OutletNil() {
+    func testOutletNotNil() {
         XCTAssertNotNil(mostPopularVC.tableView, "UITableView is nil")
     }
     
-    func test_APICalling() {
+    func testTableViewDelegateNotNil() {
+        XCTAssertNotNil(mostPopularVC.tableView.delegate, "UITableView Delegate is nil")
+    }
+    
+    func testTableViewDatasourceNotNil() {
+        XCTAssertNotNil(mostPopularVC.tableView.dataSource, "UITableView Datasource is nil")
+    }
+    
+    func testMostPopularAPICalling() {
         // Given
         let mostPopularVM = viewModel
         let expectation = self.expectation(description: "Testing API Calling")
@@ -47,18 +54,19 @@ class NYTimesAppTests: XCTestCase {
         // Then
         waitForExpectations(timeout: 20) { error in
             XCTAssertNotNil(mostPopularVM?.results)
+            XCTAssertEqual(mostPopularVM?.results?.count, 20)
+            XCTAssertNotNil(mostPopularVM?.results?.first)
         }
     }
     
-    func testMock_DataAPICalling1() {
+    func testMockMostPopularAPICalling() {
         // Given
         let mostPopularVM = viewModel
         guard let path = bundle.url(forResource: "MostPopular", withExtension: "json") else { return }
-        let expectation = self.expectation(description: "Testing API Calling")
+        let expectation = self.expectation(description: "Testing Most Popular API Calling")
         
         // When
         NetworkManagerMock.apiModelRequest(MostPopular.self, path.absoluteString) { response in
-            // Then
             self.viewModel.results = response.results
             expectation.fulfill()
             
@@ -67,48 +75,18 @@ class NYTimesAppTests: XCTestCase {
             expectation.fulfill()
         }
         
+        // Then
         waitForExpectations(timeout: 20) { error in
             XCTAssertNotNil(mostPopularVM?.results)
-        }
-    }
-    
-    func testMock_EmptyAPICalling1() {
-        // Given
-        let mostPopularVM = viewModel
-        guard let path = bundle.url(forResource: "MostPopular", withExtension: "json") else { return }
-        let expectation = self.expectation(description: "Testing API Calling")
-        
-        // When
-        NetworkManagerMock.apiModelRequest(MostPopular.self, path.absoluteString) { response in
-            // Then
-            expectation.fulfill()
+            XCTAssertEqual(mostPopularVM?.results?.count, 20)
+            XCTAssertNotNil(mostPopularVM?.results?.first)
             
-        } failure: { error in
-            print("Error: \(error)")
-            expectation.fulfill()
+            XCTAssertEqual(mostPopularVM?.results?.first?.title, "Biden Takes Tumble During Bike Ride in Delaware")
+            XCTAssertEqual(mostPopularVM?.results?.first?.byline, "By Zach Montague")
+            XCTAssertEqual(mostPopularVM?.results?.first?.source, "New York Times")
+            XCTAssertEqual(mostPopularVM?.results?.first?.publishedDate, "2022-06-18")
         }
-        
-        waitForExpectations(timeout: 20) { error in
-            XCTAssertNil(mostPopularVM?.results)
-        }
-    }
-    
-    func test_ModelMostPopular_Title() {
-        let mockMostTitle = mockMostResult.title
-        
-        XCTAssertNotNil(mockMostTitle)
-    }
-    
-    func test_ModelMostPopular_ByLine() {
-        let mockMostByLine = mockMostResult.byline
-        
-        XCTAssertNotNil(mockMostByLine)
-    }
-    
-    func test_ModelMostPopular_Source() {
-        let mockMostSource = mockMostResult.source
-        
-        XCTAssertNotNil(mockMostSource)
     }
 }
 
+//

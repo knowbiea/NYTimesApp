@@ -20,6 +20,7 @@ class MostPopularVC: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "NY Times Most Popular"
         tableView.register(UINib(nibName: "MostPopularTVCell", bundle: nil), forCellReuseIdentifier: "MostPopularTVCell")
+        tableView.accessibilityIdentifier = "tableView"
         setUpNavigationBar()
         getMostPopularData()
     }
